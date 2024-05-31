@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 375px;
+}
+.brand-logo{
+    width: 150px;
+}
+.nav_menu{
+    /* font-weight: 600; */
+}
+.hero-back-img{
+    position: relative;
+    background-image: url('https://shopvessels.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbg.32f6ba3c.jpg&w=1920&q=75');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-position-y: -110px;
+}
+.hero_caption h1{
+    font-size: 3.75rem;
+font-weight: bold;
+margin: 0%;
+}
+.hero_caption{
+padding-top: 150px;
+padding-bottom: 70px;
+}
+.hero_caption p{
+    color: white;
+    width: 50%;
+    font-size: 20px;
+
+}
+.brightness_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.content {
+    position: relative;
+    z-index: 2;
+    padding: 0;
+}
+.float-end-btn{
+    /* padding-left: 200px; */
+}
+.learn-more-btn{
+    background-color: #48788D;
+     color: white;
+    font-weight: 600;
+    padding: 10px 30px 10px 30px;
+    border: none;
+}
+.hero_caption h4{
+    font-size: 1.5rem;
+font-weight: bold;
+margin: 0%;
+}
+.feature-box-div-main{
+    width: 20%;
+    text-align: center;
+}
+.box-img{
+    width: 100px;
+}
+.features-box-img{
+    text-align: center;
+    border-radius: 50px;
+    background-position: center;
+
+}
+.collection-image{
+    width: 40%;
+}
+.collection-image img{
+    width: 100%;
+    height: 50%;
+}
+.collection-text{
+    width: 50%;
+    padding:30px 30px 30px 0px;
+}
+.collection-text p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.intro-text-p{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 30px !important;
+}
+
+.online-para{
+    margin-bottom: 25px;
+    /* width: 50%; */
+}
+
+.trail-button{
+    padding: 10px 40px 10px 40px;
+    background-color: #427D99;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    
+}
+.footer-img-main{
+    width: 50%;
+}
+.footer-img-div{
+    width: 25%;
+}
+.footer-logo-main{
+    width: 25%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:375px){
+    .hero_caption h1{
+        font-size: 1.75rem;
+    font-weight: bold;
+    margin: 0%;
+    }
+    .hero_caption p{
+        color: white;
+        width: 100%;
+        font-size: 12px;
+    
+    }
+    .hero-back-img{
+        position: relative;
+        background-image: url('https://shopvessels.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbg.32f6ba3c.jpg&w=1920&q=75');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        background-position-y: -10px;
+    }
+    .hero_caption{
+        padding-top: 0px;
+    }
+    .hero_caption h4{
+        font-size: 1rem;
+    font-weight: bold;
+    margin: 0%;
+    }
+    .learn-more-btn{
+        background-color: #48788D;
+         color: white;
+        font-weight: 600;
+        padding: 7px 20px 7px 20px;
+        border: none;
+    }
+    .feature-box-div-main{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .collection-image{
+        width: 100%;
+    }
+    .collection-image img{
+        width: 100%;
+    }
+    .collection-text{
+        width: 100%;
+        text-align: center;
+    }
+    .collection-text{
+        width: 100%;
+    }
+    .intro-text-p{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        font-size: 20px;
+        margin-top: 30px !important;
+    }
+    .footer-img-main{
+        width: 100%;
+    }
+    .footer-logo-main{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width:376px) and (max-width:768px){
+    .hero_caption h1{
+        font-size: 2.75rem;
+    font-weight: bold;
+    margin: 0%;
+    }
+    .hero_caption p{
+        color: white;
+        width: 100%;
+        font-size: 14px;
+    
+    }
+    .hero-back-img{
+        position: relative;
+        background-image: url('https://shopvessels.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbg.32f6ba3c.jpg&w=1920&q=75');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        background-position-y: -50px;
+    }
+    .hero_caption{
+       padding-top: 0px;
+    }
+    .hero_caption h4{
+        font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0%;
+    }
+    .learn-more-btn{
+        background-color: #48788D;
+         color: white;
+        font-weight: 600;
+        padding: 10px 20px 10px 20px;
+        border: none;
+    }
+    .feature-box-div-main{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .collection-image{
+        width: 100%;
+    }
+    .collection-image img{
+        width: 100%;
+    }
+    .collection-text{
+        width: 100%;
+    }
+    .collection-text{
+        width: 100%;
+        text-align: center;
+    }
+    .collection-text{
+        width: 100%;
+    }
+    .intro-text-p{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        font-size: 20px;
+        margin-top: 30px !important;
+    }
+    .footer-img-main{
+        width: 100%;
+    }
+    .footer-logo-main{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    .hero_caption h1{
+        font-size: 2.75rem;
+    font-weight: bold;
+    margin: 0%;
+    }
+    .hero_caption p{
+        color: white;
+        width: 70%;
+        font-size: 17px;
+    
+    }
+    .hero-back-img{
+        position: relative;
+        background-image: url('https://shopvessels.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbg.32f6ba3c.jpg&w=1920&q=75');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        background-position-y: -50px;
+    }
+    .hero_caption{
+        top: 120px;
+    }
+    .hero_caption h4{
+        font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0%;
+    }
+    .learn-more-btn{
+        background-color: #48788D;
+         color: white;
+        font-weight: 600;
+        padding: 15px 20px 15px 20px;
+        border: none;
+    }
+}
